@@ -1,11 +1,18 @@
 /.bundle/
+/doc/
+/log/*.log
+/pkg/
+/tmp/
+.byebug_history
 /.yardoc
 /_yardoc/
 /coverage/
-/doc/
-/pkg/
 /spec/reports/
-/tmp/
+/node_modules
+/spec/dummy/tmp/
+/spec/dummy/db/
+/spec/dummy/log/*.log
 
 # rspec failure tracking
 .rspec_status
+/spec/examples.txt
